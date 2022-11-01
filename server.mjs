@@ -2,13 +2,13 @@ import express from 'express'
 const app = express()
 const port = process.env.PORT || 3000
 
-app.get('/water', (req, res) => {
+app.get('/kiss', (req, res) => {
     console.log(`${req.ip} is asking for water`);
-    res.send('Your water!')
+    res.send('Uummmmhaaaaaaaaaaaaaaaaaaaaaaa!')
 })
-app.get('/food', (req, res) => {
+app.get('/love', (req, res) => {
     console.log(`${req.ip} is asking for food`);
-    res.send('I love you Ifra!')
+    res.send('I love you IfRa merI jaaN!')
   })
 
 app.listen(port, () => {
